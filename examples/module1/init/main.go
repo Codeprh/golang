@@ -12,3 +12,6 @@ func init() {
 func main() {
 	fmt.Println("hello world1")
 }
+func hello() {
+	fmt.Println("r2")
+}
