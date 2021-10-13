@@ -5,6 +5,13 @@ import (
 )
 
 func main() {
+	str := "hello go"
+	for i, v := range str {
+		fmt.Println(i, string(v))
+	}
+}
+
+func main1() {
 	for i := 0; i < 3; i++ {
 		fmt.Println(i)
 	}
